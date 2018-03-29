@@ -43,9 +43,9 @@ newDeck();
 function setTime() {
 	let minutesLabel = $(".minutes");
 	let secondsLabel = $(".seconds");
-  totalSeconds++;
-  secondsLabel.html(pad(totalSeconds % 60));
-  minutesLabel.html(pad(parseInt(totalSeconds / 60)));
+	totalSeconds++;
+  	secondsLabel.html(pad(totalSeconds % 60));
+  	minutesLabel.html(pad(parseInt(totalSeconds / 60)));
 }
 
 //
@@ -53,12 +53,12 @@ function setTime() {
 //	and return string with time.
 //
 function pad(val) {
-  var valString = val + "";
-  if (valString.length < 2) {
-    return "0" + valString;
-  } else {
-    return valString;
-  }
+	var valString = val + "";
+  	if (valString.length < 2) {
+    		return "0" + valString;
+ 	} else {
+    		return valString;
+  	}
 }
 
 //
