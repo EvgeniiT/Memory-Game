@@ -17,3 +17,13 @@ When the player starts a game, a displayed timer also start. Once the player win
 
 <em>Move Counter</em><br>
 Game displays the current number of moves a user has made.
+
+
+## Code Dependencies
+
+  - jQuery 3.3.1 <br> 
+      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+  - font-awesome <br>
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+  - font Coda <br>
+      https://fonts.googleapis.com/css?family=Coda
